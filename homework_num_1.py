@@ -1,4 +1,8 @@
 from datetime import datetime
+"""
+Функція get_days_from_today розраховує кількість днів
+між заданою датою і поточною датою.
+"""
 
 def get_days_from_today(date):
     date_replace = date.replace('.', '-', 2).replace('/', '-', 2).replace(':', '-', 2) #Робимо заміну символу при неправильному вводі
