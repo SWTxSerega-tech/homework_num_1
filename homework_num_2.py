@@ -15,6 +15,6 @@ def get_numbers_ticket(min, max, quantity):
     tickets.sort() #Сортуємо список
     return tickets
         
-        
-print(f'Переможці у розіграші: {get_numbers_ticket(1000, 1200, 6)}')
+print(f'Переможці у розіграші: {get_numbers_ticket(1, 50, 6)}') #При введенні коректних даних       
+print(f'Переможці у розіграші: {get_numbers_ticket(1000, 1200, 6)}') #При введенні некоректних даних
         
