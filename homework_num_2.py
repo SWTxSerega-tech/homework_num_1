@@ -8,7 +8,7 @@ import random
 
 def get_numbers_ticket(min, max, quantity): 
     empty_lst = []
-    if min < 1 or max > 1000 or min > max: #Робимо перевірку на мінімально та максимально допустимі значення
+    if min < 1 or max > 1000: #Робимо перевірку на мінімально та максимально допустимі значення
         return empty_lst
     try:
         tickets = random.sample(range(min, max), quantity) #Виводимо вказану кількість унікальних номерів квитків вказану кількість разів
